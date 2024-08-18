@@ -23,6 +23,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::post('create', 'create');
         Route::post('join', 'join');
         Route::get('list', 'list');
+        Route::post('get-state', 'state');
     });
 
 
